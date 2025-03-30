@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="bawk!"
+# issueTrackerURL="github.com/MinecraftForge/MinecraftForge/issues"
+showAsResourcePack=false
+
+[[mods]]
+    modId="speedyeggs"
+    version="1.0"
+    displayName="Speedy Eggs"
+    #updateJSONURL="minecraftforge.net/versions.json"
+    #displayURL="minecraftforge.net"
+    logoFile="EggWand.png"
+    credits="SomeBitch's need for eggs"
+    authors="PizzaShark"
+    description='''
+eggs 2 slo? no mo!
+    '''
+    displayTest="MATCH_VERSION"
+
+[[dependencies.speedyeggs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.speedyeggs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
