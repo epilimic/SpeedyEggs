@@ -2,15 +2,11 @@
 
 **Speedy Eggs** is a Minecraft Forge mod for 1.20.1 that adds a custom item called the **Egg Wand**. This magical wand accelerates the egg-laying process of nearby chickens and provides fun visual effects while in use.
 
-## Overview
-
-With Speedy Eggs, you can:
-- **Accelerate Egg Laying:** When you hold down the Egg Wand, it rapidly decreases the egg timer for chickens in a 9×9 area. When a chicken’s timer runs out, it immediately drops an egg.
-- **Visual Effects:** While using the Egg Wand, fun particles appear around you.
-- **Custom Crafting Recipe:** Craft the Egg Wand using a vanilla shapeless recipe.
-
 ## Features
 
+- **Accelerate Egg Laying:** When you use the Egg Wand, it rapidly decreases the egg timer for chickens in a 9×9 area. When a chicken’s timer runs out, it lays an egg!
+- **Visual Effects:** While using the Egg Wand, fun particles appear around you.
+- **Custom Crafting Recipe:** Craft the Egg Wand using a vanilla shapeless recipe.
 - **Continuous Use State:** The wand remains active as long as the use button is held down.
 - **Random Timer Decrement:** Every tick, the wand subtracts a random number of ticks (between 1 and 100) from each chicken’s egg timer.
 - **Custom Creative Tab:** The mod registers its own creative tab, making it easy to find the Egg Wand in creative mode.
@@ -31,8 +27,6 @@ With Speedy Eggs, you can:
    ```
    The mod JAR will be generated in the `build/libs/` directory.
 
-## Placement
-
 3. **Place the JAR:**  
    Copy or move the JAR file into your Minecraft `mods` folder.
 
@@ -44,7 +38,7 @@ With Speedy Eggs, you can:
 - **Egg Wand Activation:**  
   Hold the Egg Wand in your hand and press and hold the use button (usually right-click). While in use, the wand accelerates the egg-laying process of any chickens within a 9×9 area and displays particle effects.
 
-## Recipes
+## Recipe
 
 The mod adds a vanilla **shapeless** crafting recipe for the Egg Wand. In a crafting table, place:
 - 1 Egg
@@ -52,18 +46,6 @@ The mod adds a vanilla **shapeless** crafting recipe for the Egg Wand. In a craf
 - 1 Stick
 
 The ingredients can be arranged in any order to produce the Egg Wand.
-
-## Assets
-
-- **Model File:**  
-  `assets/speedyeggs/models/item/egg_wand.json`
-
-- **Texture File:**  
-  `assets/speedyeggs/textures/item/egg_wand.png`
-
-- **Language File:**  
-  `assets/speedyeggs/lang/en_us.json`  
-  (Includes the translations for the Egg Wand and the custom creative tab)
 
 ## Credits
 
