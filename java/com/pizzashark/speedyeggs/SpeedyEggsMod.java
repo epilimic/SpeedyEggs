@@ -14,7 +14,8 @@ public class SpeedyEggsMod {
         // Register item and creative tab deferred registers.
         ModItems.ITEMS.register(modEventBus);
         ModCreativeTabs.CREATIVE_TABS.register(modEventBus);
-        // Remove custom recipe serializer registration.
+        // Register particle deferred register.
+        ModParticles.PARTICLES.register(modEventBus);
         System.out.println("Speedy Eggs mod loaded!");
     }
 }
